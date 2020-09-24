@@ -1,0 +1,29 @@
+{
+  "name": "pure-web-component-main-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.4",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.3",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

@@ -1,0 +1,7 @@
+pure-web-component-chart-app/node_modules/
+pure-web-component-main-app/node_modules/
+pure-web-component-menu-app/dist/
+pure-web-component-menu-app/node_modules/
+*/.idea/*
+pure-web-component-chart-app/dist/
+package-lock.json
