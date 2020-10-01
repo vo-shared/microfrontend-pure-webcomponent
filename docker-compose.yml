@@ -1,0 +1,18 @@
+version: '3'
+services:
+  nginx:
+    image: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./pure-web-component-main-app/dist/:/home/main/
+      - ./pure-web-component-menu-app/dist/:/home/left-side/
+      - ./pure-web-component-chart-app/dist/:/home/right-side/
+    ports:
+      - 8000:8000
+      - 2000:2000
+      - 3000:3000
+    networks:
+      - nginx_network
+networks:
+  nginx_network:
+    external: true

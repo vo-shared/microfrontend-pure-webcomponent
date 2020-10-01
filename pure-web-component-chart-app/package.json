@@ -25,7 +25,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-web-components/google-chart": "^4.0.0",
     "chart.js": "^2.9.3"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "name": "pure-web-component-main-app",
+  "name": "pure-web-component-menu-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -24,6 +24,5 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
